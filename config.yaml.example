@@ -1,0 +1,11 @@
+# log_level: INFO
+# worker_threads: 3
+dir: "<dir of configurations>"
+config_service_url: "<url of apollo config service>"
+host:
+  type: "HostName"  # HostName, HostCidr or Custom
+apps:
+- app_id: "<apollo app id>"
+  namespaces:
+  - application.properties
+  - application.yaml

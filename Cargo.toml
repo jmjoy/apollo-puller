@@ -1,0 +1,28 @@
+[package]
+name = "apollo-puller"
+version = "0.1.0"
+authors = ["jmjoy <918734043@qq.com>"]
+edition = "2021"
+rust-version = "1.56"
+description = "Executable program which pull Ctrip Apollo configuration to local files, can be used as a sidecar."
+repository = "https://github.com/jmjoy/apollo-puller"
+documentation = "https://docs.rs/apollo-puller"
+license = "MulanPSL-2.0"
+readme = "README.md"
+keywords = ["ctrip", "apollo", "client"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.53"
+apollo-client = { version = "0.7.1", features = ["full"] }
+cidr-utils = "0.5.5"
+clap = { version = "3.0.10", features = ["derive"] }
+futures-util = "0.3.19"
+log = "0.4.14"
+log4rs = "1.0.0"
+rust-ini = "0.17.0"
+serde = { version = "1.0.135", features = ["derive"] }
+serde_yaml = "0.8.23"
+tokio = { version = "1.15.0", features = ["full"] }
+url = "2.2.2"
