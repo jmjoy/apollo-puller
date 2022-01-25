@@ -25,7 +25,9 @@ checksum = "94a45b455c14666b85fc40a019e8ab9eb75e3a124e05494f5397122bc9eb06e0"
 
 [[package]]
 name = "apollo-client"
-version = "0.7.0"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d8970340fd5bc8c5d10d0ac9b2b19cea5619269deb8fda4536690ce93fe89993"
 dependencies = [
  "async-stream",
  "async-trait",
